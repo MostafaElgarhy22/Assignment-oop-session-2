@@ -10,7 +10,8 @@ namespace Assignment
         Guest,       
         Developer,  
         Secretary,    
-        DBA           
+        DBA ,    
+        SecurityOfficer    
     }
     internal class Program
     {
@@ -113,8 +114,22 @@ namespace Assignment
         #endregion
         #region Q 3
 
-        #endregion
-        #endregion
+        // we made this 2 classes before so i just call them .......
 
-    }
+
+        //Employee[] employees = new Employee[2];
+
+        //employees[0] = new Employee(1, "Mostafa", 'M', SecurityLevel.Developer, 10000, new DateTime(2020, 1, 1));
+        //employees[1] = new Employee(2, "Ahmed", 'M', SecurityLevel.DBA, 20000, new DateTime(2020, 1, 1));
+
+        
+        //foreach (var employee in employees)
+        //{
+        //    Console.WriteLine(Employee);
+        //}
+
+    #endregion
+    #endregion
+
+}
 }
