@@ -3,6 +3,15 @@ using System.Reflection;
 
 namespace Assignment
 {
+
+
+    public enum SecurityLevel
+    {
+        Guest,       
+        Developer,  
+        Secretary,    
+        DBA           
+    }
     internal class Program
     {
         #region Part 01
@@ -61,34 +70,45 @@ namespace Assignment
         #endregion
         #region Q 3
 
-    //    Person2[] Persons = new Person2[3];
+        //    Person2[] Persons = new Person2[3];
 
-    //    for(int i = 0; i < 3; i++)
-    //    {
-    //        Persons[i] = new Person2();
-    //    Console.WriteLine("Enter the name of the person : ");
-    //        Persons[i].Name = Console.ReadLine();
-    //        Console.WriteLine("Enter the age of the person : ");
-    //        Persons[i].Age = Convert.ToInt32(Console.ReadLine());
-    //    }
+        //    for(int i = 0; i < 3; i++)
+        //    {
+        //        Persons[i] = new Person2();
+        //    Console.WriteLine("Enter the name of the person : ");
+        //        Persons[i].Name = Console.ReadLine();
+        //        Console.WriteLine("Enter the age of the person : ");
+        //        Persons[i].Age = Convert.ToInt32(Console.ReadLine());
+        //    }
 
-    //for (int i = 1; i< 3; i++)
-    //    {
-    //    if (Persons[i].Age > Persons[0].Age)
-    //    {
-    //        Person2 temp = Persons[0];
-    //Persons[0] = Persons[i];
-    //        Persons[i] = temp;
-    //    }
-    //}
+        //for (int i = 1; i< 3; i++)
+        //    {
+        //    if (Persons[i].Age > Persons[0].Age)
+        //    {
+        //        Person2 temp = Persons[0];
+        //Persons[0] = Persons[i];
+        //        Persons[i] = temp;
+        //    }
+        //}
 
-    //Console.WriteLine("The oldest person is : ");
-
-
+        //Console.WriteLine("The oldest person is : ");
 
 
-    #endregion
-    #endregion
 
-}
+
+        #endregion
+        #endregion
+        #region Part 02
+        #region Q1
+
+        //Employee employeee3 = new Employee(1, "Mostafa", 'M', SecurityLevel.Developer, 10000, new DateTime(2020, 1, 1));
+
+        //Console.WriteLine(employeee3.ToString());
+
+        #endregion
+
+
+        #endregion
+
+    }
 }
