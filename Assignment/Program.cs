@@ -106,8 +106,14 @@ namespace Assignment
         //Console.WriteLine(employeee3.ToString());
 
         #endregion
+        #region Q 2
 
+        //HiringDate hiringDate = new HiringDate(2019, 8, 25);
+        //Console.WriteLine(hiringDate.ToString());
+        #endregion
+        #region Q 3
 
+        #endregion
         #endregion
 
     }
