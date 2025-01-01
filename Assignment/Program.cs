@@ -55,11 +55,40 @@ namespace Assignment
 
 
 
-           
+
 
         //}
         #endregion
-        #endregion
+        #region Q 3
 
-    }
+    //    Person2[] Persons = new Person2[3];
+
+    //    for(int i = 0; i < 3; i++)
+    //    {
+    //        Persons[i] = new Person2();
+    //    Console.WriteLine("Enter the name of the person : ");
+    //        Persons[i].Name = Console.ReadLine();
+    //        Console.WriteLine("Enter the age of the person : ");
+    //        Persons[i].Age = Convert.ToInt32(Console.ReadLine());
+    //    }
+
+    //for (int i = 1; i< 3; i++)
+    //    {
+    //    if (Persons[i].Age > Persons[0].Age)
+    //    {
+    //        Person2 temp = Persons[0];
+    //Persons[0] = Persons[i];
+    //        Persons[i] = temp;
+    //    }
+    //}
+
+    //Console.WriteLine("The oldest person is : ");
+
+
+
+
+    #endregion
+    #endregion
+
+}
 }
