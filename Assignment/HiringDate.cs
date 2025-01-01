@@ -42,6 +42,14 @@ namespace Assignment
         {
             return $"Year = {Year} , Month = {Month} , Day = {Day}";
         }
+
+
+        public int ToSeprate(HiringDate)
+        {
+            DateTime thisDate = new DateTime(Year, Month, Day);
+            DateTime otherDate = new DateTime(Year, Month, Day);
+            return thisDate.CompareTo(otherDate);
+        }
         #endregion
 
 

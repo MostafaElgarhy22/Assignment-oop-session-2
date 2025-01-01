@@ -7,11 +7,11 @@ namespace Assignment
 
     public enum SecurityLevel
     {
-        Guest,       
-        Developer,  
-        Secretary,    
-        DBA ,    
-        SecurityOfficer    
+        Guest,
+        Developer,
+        Secretary,
+        DBA,
+        SecurityOfficer
     }
     internal class Program
     {
@@ -100,7 +100,7 @@ namespace Assignment
         #endregion
         #endregion
         #region Part 02
-        #region Q1
+        #region Q 1
 
         //Employee employeee3 = new Employee(1, "Mostafa", 'M', SecurityLevel.Developer, 10000, new DateTime(2020, 1, 1));
 
@@ -122,12 +122,30 @@ namespace Assignment
         //employees[0] = new Employee(1, "Mostafa", 'M', SecurityLevel.Developer, 10000, new DateTime(2020, 1, 1));
         //employees[1] = new Employee(2, "Ahmed", 'M', SecurityLevel.DBA, 20000, new DateTime(2020, 1, 1));
 
-        
+
         //foreach (var employee in employees)
         //{
         //    Console.WriteLine(Employee);
         //}
 
+        #endregion
+        #region Q 4
+        Employee2[] employees = new Employee2[4];
+
+        employees[0] = new Employee2(1, "Mostafa", 'M', SecurityLevel.Developer, 10000, new DateTime(2020, 1, 1));
+        employees[1] = new Employee2(2, "Ahmed", 'M', SecurityLevel.DBA, 20000, new DateTime(2020, 1, 1));
+        employees[2] = new Employee2(3, "Ali", 'M', SecurityLevel.Secretary, 30000, new DateTime(2020, 1, 1));
+        employees[3] = new Employee2(4, "Mohamed", 'M', SecurityLevel.SecurityOfficer, 40000, new DateTime(2020, 1, 1));
+
+
+        Array.Sort(employees, (x, y) => x.Salary.CompareTo(y.Salary)); // this is the sorting method to sort the array of employees by salary
+
+       
+        foreach (var employee in employees)
+        {
+            Console.WriteLine(emp);
+        }
+    
     #endregion
     #endregion
 
